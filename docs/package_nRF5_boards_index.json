@@ -172,7 +172,8 @@
               "checksum": "MD5:603bcce8e59683ac27054b3197a53254"
             },
             {
-              "host": "i686-linux-gnu",
+#              "host": "i686-linux-gnu",
+              "host": "arm-linux-gnueabihf",
               "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "size": "92811866",
