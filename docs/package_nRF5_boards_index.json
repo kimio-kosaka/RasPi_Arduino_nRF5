@@ -206,7 +206,7 @@
               "checksum": "MD5:3ffaa4e7cd4b96770eec65002c5959e3"
             },
             {
-              "host": "i686-linux-gnu",
+              "host": "arm-linux-gnueabihf",
               "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
               "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
               "size": "3585042",
