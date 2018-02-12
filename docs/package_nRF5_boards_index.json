@@ -2,15 +2,15 @@
   "packages": [
     {
       "name": "sandeepmistry",
-      "maintainer": "Sandeep Mistry",
+      "maintainer": "Sandeep Mistry/modified by Kosaka.Lab.",
       "websiteURL": "https://github.com/sandeepmistry/arduino-nRF5",
-      "email": "sandeep.mistry@gmail.com",
+      "email": "",
       "help": {
         "online": "https://github.com/sandeepmistry/arduino-nRF5/issues"
       },
       "platforms": [
         {
-          "name": "Nordic Semiconductor nRF5 Boards",
+          "name": "Nordic Semiconductor nRF5 Boards for Raspbian",
           "architecture": "nRF5",
           "version": "0.1.0",
           "category": "Contributed",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "name": "Nordic Semiconductor nRF5 Boards",
+          "name": "Nordic Semiconductor nRF5 Boards for Raspbian",
           "architecture": "nRF5",
           "version": "0.2.0",
           "category": "Contributed",
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "name": "Nordic Semiconductor nRF5 Boards",
+          "name": "Nordic Semiconductor nRF5 Boards for Raspbian",
           "architecture": "nRF5",
           "version": "0.3.0",
           "category": "Contributed",
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "name": "Nordic Semiconductor nRF5 Boards",
+          "name": "Nordic Semiconductor nRF5 Boards for Raspbian",
           "architecture": "nRF5",
           "version": "0.4.0",
           "category": "Contributed",
