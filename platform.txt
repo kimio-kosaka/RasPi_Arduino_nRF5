@@ -27,25 +27,25 @@ compiler.warning_flags.default=
 compiler.warning_flags.more=-Wall
 compiler.warning_flags.all=-Wall -Wextra
 
-compiler.path=/usr/bin/
-compiler.c.cmd=gcc
+compiler.path={runtime.tools.gcc-arm-none-eabi-5_2-2015q4.path}/bin/
+compiler.c.cmd=arm-none-eabi-gcc
 compiler.c.flags=-mcpu={build.mcu} -mthumb -c -g -Os {compiler.warning_flags} {build.float_flags} -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -MMD
-compiler.c.elf.cmd=gcc
+compiler.c.elf.cmd=arm-none-eabi-gcc
 compiler.c.elf.flags=-Os -Wl,--gc-sections -save-temps
-compiler.S.cmd=gcc
+compiler.S.cmd=arm-none-eabi-gcc
 compiler.S.flags=-c -g -x assembler-with-cpp
-compiler.cpp.cmd=g++
+compiler.cpp.cmd=arm-none-eabi-g++
 compiler.cpp.flags=-mcpu={build.mcu} -mthumb -c -g -Os {compiler.warning_flags} {build.float_flags} -std=gnu++11 -ffunction-sections -fdata-sections -fno-threadsafe-statics -nostdlib --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD
-compiler.ar.cmd=ar
+compiler.ar.cmd=arm-none-eabi-ar
 compiler.ar.flags=rcs
-compiler.objcopy.cmd=objcopy
+compiler.objcopy.cmd=arm-none-eabi-objcopy
 compiler.objcopy.eep.flags=-O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0
 compiler.elf2bin.flags=-O binary
-compiler.elf2bin.cmd=objcopy
+compiler.elf2bin.cmd=arm-none-eabi-objcopy
 compiler.elf2hex.flags=-O ihex
-compiler.elf2hex.cmd=objcopy
+compiler.elf2hex.cmd=arm-none-eabi-objcopy
 compiler.ldflags=-mcpu={build.mcu} -mthumb {build.float_flags} -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align
-compiler.size.cmd=size
+compiler.size.cmd=arm-none-eabi-size
 compiler.define=-DARDUINO=
 
 # this can be overriden in boards.txt
