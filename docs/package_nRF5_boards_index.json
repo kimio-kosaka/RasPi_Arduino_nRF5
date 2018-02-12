@@ -166,10 +166,10 @@
           "systems": [
             {
               "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
-              "size": "92811866",
-              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90"
+              "url": "https://github.com/kimio-kosaka/RasPi_Arduino_nRF5/releases/download/tools/gcc-arm-none-eabi-5_4_1.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-5_4_1.tar.gz",
+              "size": "103403277",
+              "checksum": "SHA-256:160e07f7c205f2aa834fe6bea4f883db6e486273ca6b124a33d4eab3035c1d32"
             }
           ]
         },
@@ -179,10 +179,10 @@
           "systems": [
             {
               "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
-              "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
-              "size": "3585042",
-              "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
+              "url": "https://github.com/kimio-kosaka/RasPi_Arduino_nRF5/releases/download/tools/openocd-0_9_0.tar.gz",
+              "archiveFileName": "openocd-0_9_0.tar.gz",
+              "size": "231804",
+              "checksum": "SHA-256:4b76e3b4df2df5a36ac338a5cd6ef108e43084ec7b62e54c870d58734fec344c"
             }
           ]
         }
